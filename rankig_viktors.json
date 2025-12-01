@@ -1,0 +1,13 @@
+{
+    "name": "Viktors",
+    "ranking": {
+        "Big Mac ": 2,
+        "Filet-O-Fish ": 0,
+        "McNuggets ": 2,
+        "McFlurry (Oreo)": 1,
+        "Apple Pie ": -1,
+        "Egg McMuffin": -2,
+        "Side Salad": -2,
+        "Hash Browns": 1
+    }
+}

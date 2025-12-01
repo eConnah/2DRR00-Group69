@@ -1,0 +1,13 @@
+{
+    "name": "Maria",
+    "ranking": {
+        "Big Mac ": 0 ,
+        "Filet-O-Fish ": -2 ,
+        "McNuggets ": 1 ,
+        "McFlurry (Oreo)": 1.5 ,
+        "Apple Pie ": 2 ,
+        "Egg McMuffin": -1.5,
+        "Side Salad": -2,
+        "Hash Browns": 0
+    }
+}
