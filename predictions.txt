@@ -1,0 +1,37 @@
+1 person
+        "Apple Pie ": 1,
+        "Egg McMuffin": 1,
+        "Side Salad": -1,
+        "Hash Browns" -2:
+
+2 persons
+        "Apple Pie ": 0.0,
+        "Egg McMuffin": -0.5,
+        "Side Salad": -1.5,
+        "Hash Browns" -0.5:
+
+3 persons
+        "Apple Pie ": 0.66,
+        "Egg McMuffin": -0.83,
+        "Side Salad": -1.6667,
+        "Hash Browns" -0.333:
+
+4 persons
+        "Apple Pie ": 0.75,
+        "Egg McMuffin": -0.5,
+        "Side Salad": -0.875,
+        "Hash Browns" 0:
+
+5 persons
+        "Apple Pie ": 0.8,
+        "Egg McMuffin": -0.5,
+        "Side Salad": 0.6,
+        "Hash Browns" 0.2:
+
+
+
+Glorija:
+        "Apple Pie ": 1.5,
+        "Egg McMuffin": -0.5,
+        "Side Salad": 1,
+        "Hash Browns" 0:
