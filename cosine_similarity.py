@@ -1,19 +1,39 @@
 import json
 
 # Opening and reading the JSON file
-with open('ranking_Glorija.json', 'r') as f:
+with open('task1/rankings/glorija.json', 'r') as f:
     # Parsing the JSON file into a Python dictionary
     ranking_Glorija = json.load(f)
 
+
+glorija_magnitude = 0
+
+for i in range (4):
+    glorija_magnitude += (list(ranking_Glorija["ranking"].values())[i])**2
+
+glorija_magnitude = (glorija_magnitude)**0.5
+
+
 def compute_cosine_similarity(person):
 
-    with open('ranking_' + person + '.json', 'r') as f:
+    with open('task1/rankings/' + person + '.json', 'r') as f:
         ranking_person = json.load(f)
 
     inner_product = 0
-
-    for i in range (3):
-        inner_product += ranking_Glorija["ranking"][i]
+    for i in range (4):
+        inner_product += list(ranking_person["ranking"].values())[i] * list(ranking_Glorija["ranking"].values())[i]
     
-    for i in ranking_Glorija["ranking"]:
-        
+
+    person_magnitude = 0
+    for i in range (4):
+        person_magnitude += (list(ranking_person["ranking"].values())[i])**2
+    person_magnitude = person_magnitude**0.5
+
+    return ((inner_product) / (glorija_magnitude * person_magnitude))
+
+
+
+persons = ['connor', 'ivan', 'lukas', 'maria', 'viktors']
+
+for name in persons:
+    print( name +  str(compute_cosine_similarity(name)))
