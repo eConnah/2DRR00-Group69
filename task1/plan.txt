@@ -1,0 +1,5 @@
+1. Choose a member who will have incomplete ranking ("the person")
+2. Complete rankings.
+3. Compute cosine cimilarity on 3 known data points between the person and other members.
+4. Predict the person's ranking based on 1, 2, ... 5 most similar members.
+5. Compare the difference between projected rankings 
