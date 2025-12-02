@@ -1,8 +1,8 @@
-PWD /home/connor/Documents/2DRR00-Group69
+PWD /home/connor/Documents/university/2DRR00-Group69
 INPUT /nix/store/09b7sar0s5xnqlipwxd067hlnji3hw41-texlive-2025-env/share/texmf-var/web2c/texmf.cnf
 INPUT /nix/store/09b7sar0s5xnqlipwxd067hlnji3hw41-texlive-2025-env/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/connor/Documents/2DRR00-Group69/ratings.tex
-OUTPUT build/ratings.log
+INPUT /home/connor/Documents/university/2DRR00-Group69/report.tex
+OUTPUT build/report.log
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex/latex/base/report.cls
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex/latex/base/report.cls
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex/latex/base/size10.clo
@@ -20,10 +20,10 @@ INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex/latex/amsmath/amsopn.sty
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT build/ratings.aux
-INPUT build/ratings.aux
-INPUT build/ratings.aux
-OUTPUT build/ratings.aux
+INPUT build/report.aux
+INPUT build/report.aux
+INPUT build/report.aux
+OUTPUT build/report.aux
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/map/fontname/texfonts.map
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/cm/cmr12.tfm
@@ -38,7 +38,7 @@ INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fon
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-OUTPUT build/ratings.pdf
+OUTPUT build/report.pdf
 INPUT /nix/store/09b7sar0s5xnqlipwxd067hlnji3hw41-texlive-2025-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/cm/cmr12.tfm
@@ -46,7 +46,7 @@ INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fon
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT build/ratings.aux
+INPUT build/report.aux
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /nix/store/k6ng7y0siv1fqn3px5i0j22v3k7ggffq-texlive-2025-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb
