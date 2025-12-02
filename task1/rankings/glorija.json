@@ -5,9 +5,9 @@
         "Filet-O-Fish ": -1,
         "McNuggets ": 2,
         "McFlurry (Oreo)": 1.5,
-        "Apple Pie ": 0,
-        "Egg McMuffin": 0,
-        "Side Salad": 0,
+        "Apple Pie ": 1.5,
+        "Egg McMuffin": -0.5,
+        "Side Salad": 1,
         "Hash Browns": 0
     }
 }
