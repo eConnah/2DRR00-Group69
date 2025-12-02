@@ -1,7 +1,7 @@
 import json
 
 # Opening and reading the JSON file
-with open('../rankings/glorija.json', 'r') as f:
+with open('task1/rankings/glorija.json', 'r') as f:
     # Parsing the JSON file into a Python dictionary
     ranking_Glorija = json.load(f)
 
@@ -16,7 +16,7 @@ glorija_magnitude = (glorija_magnitude)**0.5
 
 def compute_cosine_similarity(person):
 
-    with open('../rankings/' + person + '.json', 'r') as f:
+    with open('task1/rankings/' + person + '.json', 'r') as f:
         ranking_person = json.load(f)
 
     inner_product = 0
