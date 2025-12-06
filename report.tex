@@ -1,12 +1,13 @@
-\documentclass{report}  
+\documentclass{report}
 \usepackage{amsmath}
+\usepackage[a4paper]{geometry}
 
-\title{Matrix Fun Stuff}  
+\title{Matrix Fun Stuff}
 \author{
     Lukáš Hlaváč
     \and
     Connor Alecks
-    \and>
+    \and
     Ivan Vnukov
     \and
     Glorija Ringe
@@ -14,26 +15,43 @@
     Viktors Li
     \and
     Maria Haritonova
-}  
-\date{\today}  
-  
-\begin{document}  
+}
+\date{December 1, 2025 -- \today}
 
-\maketitle  
-  
-Exercise 1 \em Food Ratings
-  
-\section{Introduction}  
-We chose to  
-  
-\subsection{Subsection 1}  
-Content for subsection 1.  
+\begin{document}
+
+\maketitle
+
+Exercise 1 \emph{Food Ratings}
+
+\section{Introduction}
+We chose to use different, unrelated items from the McDonalds menu as we wanted to select a topic everyone had tried. The items we chose were:
+\begin{itemize}
+    \item Big Mac
+    \item Fillet-O-Fish
+    \item McNuggets
+    \item McFlurry (Oreo)
+    \item Apple Pie
+    \item Egg McMuffin
+    \item Side Salad
+    \item Hash Browns
+\end{itemize}
+
+We then all rated the items from -2 to 2 and stored them in json files so they could be used as vectors later on.
+After choosing Glorija as our person to estimate we then calculated the similarity of her answers to everyone elses for the first 4 items using
+the following formula:
+$$\text{Cosine Similarity} = \frac{a \cdot b}{\| a \| \| b \|}$$
+Using this formula, values close to 1 indicate strong similarity, values near 0 indicate no relationship, and values approaching -1 indicate strong opposition.
+
+\subsection{Subsection 1}
+Content for subsection 1.
 
 \begin{center}
     \begin{tabular}{ c c c }
         cell1 & cell2 & cell3 \\
-        cell4 & cell5 &cell6 \\
+        cell4 & cell5 & cell6 \\
         cell7 & cell8 & cell9
     \end{tabular}
 \end{center}
+
 \end{document}
