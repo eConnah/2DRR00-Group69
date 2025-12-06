@@ -2,7 +2,7 @@ import numpy as np
 
 airports = ['Amsterdam', 'Barcelona', 'Berlin', 'Bratislava', 'Eindhoven', 'Frankfurt', 'London', 'Maastricht', 'Paris', 'Prague', 'Riga', 'Tallinn', 'Vilnius']
 
-
+# from ⌜ to
 connections = np.array([
     [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
@@ -27,8 +27,4 @@ def print_connections():
 
 
 connections_normalized = connections / np.abs(connections).sum(axis=0)
-
-
-
-
-print(connections_normalized)
+print_connections()

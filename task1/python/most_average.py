@@ -1,5 +1,4 @@
 import json
-import math
 
 def dotProduct(vectorA, vectorB):
     dotProd = 0
@@ -14,9 +13,8 @@ def vectorMod(vector):
     return vectorMod ** 0.5
 
 def cosineSim(vectorA, vectorB):
-    return abs(dotProduct(vectorA, vectorB)/(vectorMod(vectorA) * vectorMod(vectorB)))
+    return (dotProduct(vectorA, vectorB)/(vectorMod(vectorA) * vectorMod(vectorB)))
     
-
 averages = []
 
 data = {}
@@ -38,4 +36,6 @@ for i in range(8):
 for i in names:
     averagessness[i] = cosineSim(averages, list((data[i])["ranking"].values()))
 
-print(averagessness)
+print('Averagessness from most to least:')
+for i in sorted(averagessness.values(), reverse=True):
+    print(f'{list(averagessness.keys())[list(averagessness.values()).index(i)]}: {i}')

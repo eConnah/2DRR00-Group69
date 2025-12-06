@@ -19,6 +19,4 @@ def compute_cosine_similarity():
     return prediction
     
 
-print( "predicted score: " + str(compute_cosine_similarity()))
-
-
+print("predicted score: " + str(compute_cosine_similarity()))
