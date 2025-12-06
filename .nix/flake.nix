@@ -35,7 +35,11 @@
                 ]
               ))
 
-              pkgs.texliveMedium
+              (pkgs.texliveMedium.withPackages (
+                ps: with ps; [
+                  latexindent
+                ]
+              ))
             ];
             shellHook = ''
               echo "Welcome to the Python devShell on ${system}!"
