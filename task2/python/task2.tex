@@ -1,0 +1,28 @@
+\title{Google Page Rank}
+
+We decided to go with a map of airports and flights between them for the Google Page Rank with the following airports.
+\begin{itemize}
+    \item Amsterdam
+    \item Barcelona
+    \item Berlin
+    \item Bratislava
+    \item Eindhoven
+    \item Frankfurt
+    \item London
+    \item Maastricht
+    \item Paris
+    \item Prague
+    \item Riga
+    \item Tallinn
+    \item Vilnius
+\end{itemize}
+
+The flights connections are not based on real data and are meant to represent a part of the day (the reason for the many one-way flights).
+
+We first create the matrix G with values 1 or 0 depending on whether there is a flight from the row-city to the column-city (e.g g_1,2 = 1, as there is a flight from Amsterdam to Barcelona). 
+
+We normalize the matrix using G = \frac{G}{||G||_1}. We then compute a column-stochastic matrix A, using A = p \cdot G\norm + (1 - p) \cdot \frac{1}{13} \cdot \1_{13}, where \p is the probability of continuing to another airport, instead of "randomly teleporting" (taking a train, bus etc.)
+
+We proceed to computing eigenvalues and eigenvectors and filter to the first eigenvector with \lambda = 1. We then normalize this eigenvector x_n = \frac{|x|}{\sum_{i=1}^{13}|x_i|} and round the values to 2 decimal places.
+
+We can adjust the p-value for different results.

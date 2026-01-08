@@ -1,10 +1,9 @@
 import numpy as np
-from pprint import pprint
 
 airports = ['Amsterdam', 'Barcelona', 'Berlin', 'Bratislava', 'Eindhoven', 'Frankfurt', 'London', 'Maastricht', 'Paris', 'Prague', 'Riga', 'Tallinn', 'Vilnius']
 
 # from ⌜ to
-connections = np.array([
+connections = np.array([    # double-check that it shouldnt be transposed 
     [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
